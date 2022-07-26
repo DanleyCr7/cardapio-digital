@@ -17,8 +17,9 @@
         </style>
 
         <style>
-            body * {
+            body {
                 font-family: 'Poppins', sans-serif;
+                background: #fafafa;
             }
             .main {
                 flex: 3;
@@ -54,6 +55,8 @@
         <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
         <!-- Required popper.js -->
         <script src="https://unpkg.com/@popperjs/core@2.9.1/dist/umd/popper.min.js" charset="utf-8"></script>
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script>
             var popoverTriggerList = [].slice.call(
                 document.querySelectorAll('[data-bs-toggle="popover"]')
